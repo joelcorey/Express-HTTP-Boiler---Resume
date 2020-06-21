@@ -48,7 +48,22 @@ table {
 }
 /** End CSS reset **/
 
-a:link {
+:root {
+	--main-text-color: #3e4767;
+	--main-background-color: #f5f6f7;
+}
+
+body {
+	background-color: var(--main-background-color);
+	color: var(--main-text-color);
+}
+
+a {
+	text-decoration: none;
+	color: var(--main-text-color);
+}
+
+/* a:link {
   text-decoration: none;
 }
 
@@ -62,7 +77,7 @@ a:hover {
 
 a:active {
 	text-decoration: underline;
-}
+} */
 
 div, header, section {
 	display: flex;
