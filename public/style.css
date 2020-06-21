@@ -92,6 +92,8 @@ div, header, section {
 	text-transform: uppercase;
 	text-decoration: underline;
 	font-style: italic;
+	font-family: 'Nanum Gothic', sans-serif;
+	font-weight: 1000;
 }
 
 .container-flex {
