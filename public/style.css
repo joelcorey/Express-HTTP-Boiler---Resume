@@ -96,6 +96,13 @@ div, header, section {
 	display: flex;
 	align-items: center;
 	width: 100vw;
+	/* font-style: italic; */
+}
+
+.header {
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-style: italic;
 }
 
 ul.header-details {
@@ -110,3 +117,24 @@ ul.header-details {
 ul.header-details li {
 	margin: 0 15px;
 }
+
+.sklls-and-credentials {
+
+}
+
+.projects {
+
+}
+
+.work-history {
+
+}
+
+.education-training {
+
+}
+
+.volunteer-experience {
+
+}
+
