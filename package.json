@@ -15,7 +15,7 @@
   "main": "server.js",
   "scripts": {
     "dev": "nodemon server.js",
-    "start": "./node_modules/.bin/supervisor -k -e html -i .git/,node_modules/ -- server.js",
+    "start": "./node_modules/.bin/supervisor -k -e css html -i .git/,node_modules/ -- server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
