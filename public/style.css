@@ -48,11 +48,22 @@ table {
 }
 /** End CSS reset **/
 
-.container-flex {
+div, header, section {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.container-flex {
+    display: flex;
+    /* flex-direction: column; */
     justify-content: center;
-    
+}
+
+.header-name {
+    display: flex;
+    align-items: center;
+    width: 100vw;
 }
 
 ul.header-details {
