@@ -57,6 +57,7 @@ body {
 	background-color: var(--main-background-color);
 	color: var(--main-text-color);
 	font-family: 'Gothic A1', sans-serif;
+	margin: 1% 5%;
 }
 
 a {
@@ -90,6 +91,7 @@ div, header, section {
 	display: flex;
 	/* flex-direction: column; */
 	justify-content: center;
+	
 }
 
 .header-name {
@@ -138,3 +140,22 @@ ul.header-details li {
 
 }
 
+.work-details {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	list-style-type: circle;
+	min-width: 100%;
+}
+
+.work-details ul {
+	min-width: 100%;
+}
+
+.work-header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	min-width: 100%;
+	font-weight: bold;
+}
