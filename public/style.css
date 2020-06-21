@@ -48,33 +48,49 @@ table {
 }
 /** End CSS reset **/
 
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	text-decoration: underline;
+}
+
 div, header, section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .container-flex {
-    display: flex;
-    /* flex-direction: column; */
-    justify-content: center;
+	display: flex;
+	/* flex-direction: column; */
+	justify-content: center;
 }
 
 .header-name {
-    display: flex;
-    align-items: center;
-    width: 100vw;
+	display: flex;
+	align-items: center;
+	width: 100vw;
 }
 
 ul.header-details {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    align-items: center;
-    margin: 0 auto;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
 }
 
 ul.header-details li {
-    margin: 0 15px;
+	margin: 0 15px;
 }
