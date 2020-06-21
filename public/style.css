@@ -84,7 +84,14 @@ a:active {
 div, header, section {
 	display: flex;
 	flex-direction: column;
+	/* align-items: center; */
+}
+
+.header {
 	align-items: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+	font-style: italic;
 }
 
 .container-flex {
@@ -97,14 +104,7 @@ div, header, section {
 .header-name {
 	display: flex;
 	align-items: center;
-	width: 100vw;
 	/* font-style: italic; */
-}
-
-.header {
-	text-transform: uppercase;
-	text-decoration: underline;
-	font-style: italic;
 }
 
 ul.header-details {
@@ -120,7 +120,7 @@ ul.header-details li {
 	margin: 0 15px;
 }
 
-.sklls-and-credentials {
+/* .sklls-and-credentials {
 
 }
 
@@ -138,24 +138,19 @@ ul.header-details li {
 
 .volunteer-experience {
 
-}
+} */
 
 .work-details {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	/* align-items: flex-start; */
 	list-style-type: circle;
-	min-width: 100%;
-}
-
-.work-details ul {
-	min-width: 100%;
 }
 
 .work-header {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	min-width: 100%;
 	font-weight: bold;
+	width: 100%;
 }
