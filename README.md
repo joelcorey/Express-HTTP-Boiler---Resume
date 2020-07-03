@@ -2,10 +2,7 @@
 # Node / Express server boilerplate
 
 ## Why?
-A basic web server that serves up my resume as a web page. This was made as a refresher for myself and to serve as a code base for future projects.
-
-### Todo for both frontend and backend
-https://trello.com/b/nYBzDmmj/findit-api  
+A basic web server that serves up my resume as a web page. This was made as a refresher for myself and to serve as a code base for future projects. 
   
 ## Available Scripts
 
