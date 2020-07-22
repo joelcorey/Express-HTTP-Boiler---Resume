@@ -17,6 +17,10 @@ app.use(express.static('public'))
 app.get('/', function (req, res) {
   res.sendFile(path.join(publicDir, 'index.html'))
 })
+
+app.get('/exp', function (req, res) {
+  res.sendFile(path.join(publicDir, 'exp.html'))
+})
  
 var server = http.createServer(app)
  
